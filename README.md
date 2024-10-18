@@ -26,7 +26,7 @@
    - **Hora de Almoço**
      - 0x01, 0x01, 0x03, 0x00, 0x00, 0x00, 0x00
 6. O pacote no qual é associado o _serial_ é denominado [Information Transfer Packet](https://github.com/DProgrammerOf/proj-ext-jornada/blob/main/InformationTransferPacket.png), descrito na documentação do fornecedor [GT06](https://github.com/DProgrammerOf/proj-ext-jornada/blob/main/JM-VL03%20GPS%20Tracker%20Communication%20Protocol_v1.1_20210207%202.pdf).
-7. O tratamento das informações é feito pelo software [Traccar 4.11](https://github.com/traccar/traccar/tree/v4.11) com customizações feitas para funcionar com esse projeto.
+7. O tratamento das informações é feito pelo software [Traccar 4.11](https://github.com/traccar/traccar/tree/v4.11) com customizações para funcionar com esse projeto: [Gt06ProtocolDecoder](https://github.com/DProgrammerOf/proj-ext-jornada/blob/main/software-custom/Gt06ProtocolDecoder.java).
 
 
  
